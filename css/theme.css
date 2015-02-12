@@ -1,0 +1,122 @@
+body{
+ overflow-x: hidden;
+}
+
+    @font-face {
+      font-family: LeagueGothic;
+      src: url(../fonts/theleagueofgothic/LeagueGothic-Regular.otf);
+
+    }
+    h1,h2,h3,h4,h5,h6,p,.fonttypeleague{
+      font-family:LeagueGothic;
+    }
+       p{
+          text-indent: 10px;
+    }
+    #abovenavbarimagesandshare{
+      position:absolute;
+      top:0%;
+      width:100%;
+      height:14%;
+      min-height:14%;
+      max-height:200px;
+      left:0%;
+    }
+ 
+ 
+   .headerimage{
+    height:100%;
+    width:25%;
+    top:0%;
+    left:0%;
+
+   }
+   .tumblrimage{
+    height:50%;
+    width:10%;
+    top:0%;
+    right:0%;
+    position: absolute;
+    float:right;
+   }
+    .facebookimage{
+    height:40%;
+    width:10%;
+    bottom:0%;
+    right:0.5%;
+    position: absolute;
+    float:right;
+   }
+   #donatearea{
+    width: 20%;
+    height:40%;
+    text-align: center;
+    position: absolute;
+    left:40%;
+    -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+border-style: none;
+  font-size: 2vw;
+    font-weight: 0;
+   color:#5a6684;
+   letter-spacing:2.5px;
+   }
+   .donate{
+position: absolute;
+  }
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top:14%;
+  width:103%;
+  font-size: 1vw;
+  font-weight: 100;
+  color:#5a6684;
+  letter-spacing:2.5px;
+  left:-3%;
+
+}
+.nav li {
+  font-family: LeagueGothic;
+  line-height: 100%;
+  height: 100%;
+  border-bottom: 1px solid #888;
+
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #DC4242;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
