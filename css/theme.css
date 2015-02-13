@@ -106,8 +106,29 @@ position: absolute;
   color: #444;
   cursor: default;
 }
+
+#footer ul{
+  width:10%;
+  list-style-type: none;
+}
  
-@media screen and (min-width: 600px) {
+#footer a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+#footer a:hover {
+ 
+}
+ 
+#footer a.active {
+
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {}
   .nav li {
     width: 120px;
     border-bottom: none;
@@ -141,7 +162,7 @@ left:22%;
     width:53%;
     height:50%;
     left:22%;
-    border:1px solid red;
+    border:1px solid rgb(220, 66, 66);
 
   }
   #homeimages{
@@ -151,8 +172,31 @@ left:22%;
   }
 #footer{
   position:absolute;
-  top:95%;
+  top:100%;
   width:100%;
-  height:20%;
+  height:23%;
+  left:0%;
+  background: #444;
 
 }
+#devolpercitation{
+  float:right;
+  top:0%;
+  right:0%;
+  padding-right:1%;
+  position: absolute;
+  font-size:3vh;
+}
+#devolpercitation a{
+  color: rgb(220, 66, 66);
+}
+#thelegal501c3statement{
+float:right;
+  top:45%;
+  right:0%;
+  width:15%;
+  padding-right:1%;
+  position: absolute;
+  font-size:1vw;
+  text-align:right;
+  }
