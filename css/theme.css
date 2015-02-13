@@ -1,5 +1,6 @@
-body{
- overflow-x: hidden;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
     @font-face {
@@ -7,10 +8,10 @@ body{
       src: url(../fonts/theleagueofgothic/LeagueGothic-Regular.otf);
 
     }
-    h1,h2,h3,h4,h5,h6,p,.fonttypeleague{
+    h1,h2,h3,h4,h5,h6,p,.fonttypeleague, #messageboxundernavbar{
       font-family:LeagueGothic;
     }
-       p{
+       .contentparagraphs{
           text-indent: 10px;
     }
     #abovenavbarimagesandshare{
@@ -119,4 +120,18 @@ position: absolute;
   .nav li {
     display: inline-block;
     margin-right: -4px;
+  }
+#messageboxundernavbar{
+  position: absolute;
+  top:25%;
+left:22%;
+  width:53%;
+  height:6%;
+  border-top: 2px solid rgb(220, 66, 66);
+  border-bottom:2px solid rgb(220, 66, 66);
+  font-size: 3vh;
+  font-weight: 100;
+  color:rgb(220, 66, 66);
+  text-align: center;
+  line-height: 200%;
   }
