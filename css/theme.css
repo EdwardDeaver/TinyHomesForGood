@@ -8,7 +8,7 @@ html, body {
       src: url(../fonts/theleagueofgothic/LeagueGothic-Regular.otf);
 
     }
-    h1,h2,h3,h4,h5,h6,p,ul,li,.fonttypeleague, #messageboxundernavbar{
+    h1,h2,h3,h4,h5,h6,p,ul,li,.fonttypeleague, #messageboxundernavbar, #contenthousingtitle{
       font-family:LeagueGothic;
     }
        .contentparagraphs{
@@ -199,4 +199,40 @@ float:right;
   position: absolute;
   font-size:1vw;
   text-align:right;
+  }
+  #contenthousingleftside{
+    width:50%;
+    border-right: 2px solid rgb(220, 66, 66);
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    overflow-y: auto;
+  }
+  #contenthousingleftsidetitle{
+    font-size: 4vh;
+    color:rgb(220, 66, 66);
+    top:0%;
+    left:0%;
+    font-weight:100;
+  }
+  #contenthousingrightside{
+     width:50%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    float:right;
+    right:0%;
+    overflow-y: auto;
+  }
+  #contenthousingrightsidetitle{
+     font-size: 4vh;
+    color:rgb(220, 66, 66);
+    top:0%;
+    left:0%;
+    font-weight:100;
+  }
+  .innertextabout{
+    font-size:1.25em;
+    padding-left: 2%;
+    padding-right:2%;
   }
