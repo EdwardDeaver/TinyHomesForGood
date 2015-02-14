@@ -106,10 +106,7 @@ position: absolute;
   color: #444;
   cursor: default;
 }
-.nav a.NOTactive {
- 
-  cursor: default;
-}
+
 #footer ul{
   width:10%;
   list-style-type: none;
