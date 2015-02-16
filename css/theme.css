@@ -306,7 +306,7 @@ body{
 }
   #messageboxundernavbar{
   position: absolute;
-  top:32%;
+  top:42%;
 left:22%;
 width: 53%;
   min-width:53%;
@@ -324,7 +324,7 @@ width: 53%;
   #contentbox{
     position: absolute;
     
-    top:42%;
+    top:52%;
     min-width:53%;
     max-width: 16%;
     min-height: 50%;
