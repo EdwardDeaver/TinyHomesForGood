@@ -297,7 +297,7 @@ width:90%;
 
 }
 
-@media all and (max-height: 600px) and (min-height: 0px) (orientation:portrait)  {
+@media all and (max-height: 1000px) and (min-height: 0px) (orientation:portrait)  {
 
   #messageboxundernavbar{
   position: absolute;
