@@ -299,7 +299,7 @@ width:90%;
 
 }
 
-@media all and (max-height: 1080px) and (min-height: 1px) and (orientation:portrait)  {
+@mehdia all and (max-height: 1080px) and (min-height: 1px) and (orientation:portrait)  {
 body{
   background-color: red;
 
@@ -378,7 +378,7 @@ overflow-x: noscroll;
   }
 
 }
-@medjia all and (max-width: 1000px) and (min-width: 1px), (orientation:landscape), (orientation:portrait) {
+@media all and (max-width: 1000px) and (min-width: 1px), (orientation:landscape), (orientation:portrait) {
 
   #messageboxundernavbar{
   position: absolute;
