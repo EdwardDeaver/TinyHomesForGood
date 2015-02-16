@@ -299,8 +299,11 @@ width:90%;
 
 }
 
-@media all and (max-height: 600px) and (min-height: 0px)  (orientation:portrait)  {
+@media all and (max-height: 1080px) and (min-height: 1px) and (orientation:portrait)  {
+body{
+  background-color: red;
 
+}
   #messageboxundernavbar{
   position: absolute;
   top:32%;
@@ -335,8 +338,11 @@ overflow-x: noscroll;
 
   }
 }
-@media all and (max-width: 900:px) and (min-width: 0px) and (orientation:landscape)  {
-
+@media all and (max-width: 1136px) and (min-width: 1px) and (orientation:landscape)  {
+body{
+  background-color: blue;
+  
+}
   #messageboxundernavbar{
   position: absolute;
   top:32%;
