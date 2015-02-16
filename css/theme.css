@@ -151,12 +151,14 @@ width: 53%;
   height:6%;
   border-top: 2px solid rgb(220, 66, 66);
   border-bottom:2px solid rgb(220, 66, 66);
-  font-size: 3vh;
+  font-size: 10vw;
   font-size:100%;
   font-weight: 100;
   color:rgb(220, 66, 66);
   text-align: center;
   line-height: 200%;
+  padding-top:1px ;
+  padding-bottom:1px;
   }
   #contentbox{
     position: absolute;
