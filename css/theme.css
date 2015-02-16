@@ -338,7 +338,7 @@ overflow-x: noscroll;
 
   }
 }
-@media all and (max-width: 1136px) and (min-width: 1px) and (orientation:landscape)  {
+@mediha all and (max-width: 1136px) and (min-width: 1px) and (orientation:landscape)  {
 body{
   background-color: blue;
   
@@ -378,7 +378,7 @@ overflow-x: noscroll;
   }
 
 }
-@media all and (max-width: 1000px) and (min-width: 1px)  {
+@medjia all and (max-width: 1000px) and (min-width: 1px), (orientation:landscape), (orientation:portrait) {
 
   #messageboxundernavbar{
   position: absolute;
