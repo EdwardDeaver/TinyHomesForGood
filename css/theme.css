@@ -333,7 +333,7 @@ overflow-x: noscroll;
 
   }
 }
-@media all and (max-height: 600px) and (min-height: 0px) (orientation:landscape)  {
+@media all and (max-height: 1000px) and (min-height: 0px) (orientation:landscape)  {
 
   #messageboxundernavbar{
   position: absolute;
