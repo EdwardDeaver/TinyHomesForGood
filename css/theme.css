@@ -297,7 +297,8 @@ width:90%;
 
 }
 
-@media screen and (min-height: 600px;) {
+@media all and (max-height: 600px) and (min-height: 0px) {
+
   #messageboxundernavbar{
   position: absolute;
   top:32%;
