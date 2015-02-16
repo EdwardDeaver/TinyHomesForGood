@@ -337,7 +337,7 @@ overflow-x: noscroll;
 
   #messageboxundernavbar{
   position: absolute;
-  top:42%;
+  top:52%;
 left:22%;
 width: 53%;
   min-width:53%;
@@ -355,7 +355,7 @@ width: 53%;
   #contentbox{
     position: absolute;
     
-    top:52%;
+    top:62%;
     min-width:53%;
     max-width: 16%;
     min-height: 50%;
