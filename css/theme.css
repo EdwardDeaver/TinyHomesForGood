@@ -5,7 +5,10 @@ html, body {
 
     @font-face {
       font-family: LeagueGothic;
-      src: url(../fonts/theleagueofgothic/LeagueGothic-Regular.otf);
+      src: url(../fonts/theleagueofgothic/LeagueGothic-Regular.otf),
+      url(../fonts/theleagueofgothic/leaguegothic-regular-webfont.woff) format('woff'),
+      url(../fonts/theleagueofgothic/leaguegothic-regular-webfont.woff2) format('woff2'),
+      url(../fonts/theleagueofgothic/leaguegothic-regular-webfont.ttf) format('truetype');
 
     }
     h1,h2,h3,h4,h5,h6,p,ul,li,.fonttypeleague, #messageboxundernavbar, #contenthousingtitle{
