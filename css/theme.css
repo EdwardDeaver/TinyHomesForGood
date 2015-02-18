@@ -146,7 +146,11 @@ position: absolute;
     display: inline-block;
     margin-right: -4px;
   }
+  #messageboxundernavbariefix{
+    position: relative;
+  }
 #messageboxundernavbar{
+  
   position: absolute;
   top:23%;
 left:22%;
