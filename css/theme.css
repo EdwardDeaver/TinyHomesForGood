@@ -544,11 +544,11 @@ overflow-x: noscroll;
 
   }
 }
-@media screen and (max-width: 2000px) and (min-width: 1px){
+@media screen and (max-width: 5000px) and (min-width: 1px){
   @-ms-viewport { width: 1000px; }
   #messageboxundernavbar{
   position: absolute;
-  top:22%;
+  top:26%;
 left:22%;
 width: 53%;
   min-width:53%;
@@ -581,7 +581,7 @@ width: 53%;
   #contentbox{
     position: absolute;
     
-    top:32%;
+    top:36%;
     min-width:53%;
     max-width: 53%;
     min-height: 50%;
