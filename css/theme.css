@@ -548,7 +548,7 @@ overflow-x: noscroll;
   @-ms-viewport { width: 1000px; }
   #messageboxundernavbar{
   position: absolute;
-  top:26%;
+  top:28%;
 left:22%;
 width: 53%;
   min-width:53%;
@@ -556,7 +556,7 @@ width: 53%;
   max-height:8%;
   border-top: 2px solid rgb(220, 66, 66);
   border-bottom:2px solid rgb(220, 66, 66);
- font-size:2em;
+ font-size:3em;
  font-size: 100%;
   font-weight: 100;
   color:rgb(220, 66, 66);
@@ -581,7 +581,7 @@ width: 53%;
   #contentbox{
     position: absolute;
     
-    top:36%;
+    top:38%;
     min-width:53%;
     max-width: 53%;
     min-height: 50%;
