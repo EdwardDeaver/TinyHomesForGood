@@ -3,9 +3,7 @@ html, body {
     overflow-x: hidden;
     font-family: 'LeagueGothic', Fallback, sans-serif;
 }
-body.ie11 body{
-   zoom: 0.8; /* Other non-webkit browsers */
- }
+
 
 
     @font-face {
