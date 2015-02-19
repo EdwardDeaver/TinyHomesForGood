@@ -604,6 +604,7 @@ overflow-x: noscroll;
 
   }
 }
+/*
 @media screen and (max-width: 5000px) and (min-width: 1px){
   @-ms-viewport {width: device-width; }
   #messageboxundernavbar{
