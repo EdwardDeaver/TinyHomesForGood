@@ -575,6 +575,5 @@ overflow-x: noscroll;
 
   }  /* CSS for 320px width Modern taskbar layout goes here */
 @-ms-viewport {
-    width: device-width;
     zoom: .75;
   }
