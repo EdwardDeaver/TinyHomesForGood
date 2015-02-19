@@ -316,7 +316,7 @@ width:90%;
   @-ms-viewport {width: device-width; }
   #messageboxundernavbar{
   position: absolute;
-  top:28%;
+  top:32%;
 left:22%;
 width: 53%;
   min-width:53%;
@@ -349,7 +349,7 @@ width: 53%;
   #contentbox{
     position: absolute;
     
-    top:38%;
+    top:45%;
     min-width:53%;
     max-width: 53%;
     min-height: 50%;
@@ -362,6 +362,7 @@ overflow-x: noscroll;
 
 
   } 
+}
   #messageboxundernavbar{
   position: absolute;
   top:32%;
