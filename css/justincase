@@ -1,0 +1,79 @@
+@mhedia all and (max-height: 1080px) and (min-height: 1px) and (orientation:portrait)  {
+body{
+  background-color: red;
+
+}
+  #messageboxundernavbar{
+  position: absolute;
+  top:42%;
+left:22%;
+width: 53%;
+  min-width:53%;
+  min-height:6%;
+  max-height:6%;
+  border-top: 2px solid rgb(220, 66, 66);
+  border-bottom:2px solid rgb(220, 66, 66);
+ font-size:2.3em;
+  font-weight: 100;
+  color:rgb(220, 66, 66);
+  text-align: center;
+  line-height: 100%;
+ 
+  }
+  #contentbox{
+    position: absolute;
+    
+    top:52%;
+    min-width:53%;
+    max-width: 16%;
+    min-height: 50%;
+    height:50%;
+    max-height:50%;
+    left:22%;
+    border:1px solid rgb(220, 66, 66);
+
+overflow-x: noscroll;
+
+
+  }
+}
+@mediha all and (max-width: 1136px) and (min-width: 1px) and (orientation:landscape)  {
+body{
+  background-color: blue;
+  
+}
+  #messageboxundernavbar{
+  position: absolute;
+  top:32%;
+left:22%;
+width: 53%;
+  min-width:53%;
+  min-height:6%;
+  max-height:6%;
+  border-top: 2px solid rgb(220, 66, 66);
+  border-bottom:2px solid rgb(220, 66, 66);
+ font-size:1.9vw;
+  font-weight: 100;
+  color:rgb(220, 66, 66);
+  text-align: center;
+  line-height: 100%;
+ 
+  }
+  #contentbox{
+    position: absolute;
+    
+    top:42%;
+    min-width:53%;
+    max-width: 16%;
+    min-height: 50%;
+    height:50%;
+    max-height:50%;
+    left:22%;
+    border:1px solid rgb(220, 66, 66);
+
+overflow-x: noscroll;
+
+
+  }
+
+}
