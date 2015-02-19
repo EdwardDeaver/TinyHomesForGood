@@ -548,7 +548,7 @@ overflow-x: noscroll;
 /* need to fix this. It interfears with the other @medias*/
 
 @media all and (max-width: 720px) and (min-width: 1px), (max-height: 600px) and (min-height: 373px) {
-@-ms-viewport { max-width: 720px;}
+@-ms-viewport { width: 600px;}
 
  
   #messageboxundernavbar{
@@ -600,7 +600,7 @@ overflow-x: noscroll;
   }
 }
 @media all and (max-height: 600px) and (min-height:1px){
-@-ms-viewport {max-height: 600px;}
+@-ms-viewport {height: 599px;}
 
   #messageboxundernavbar{
   position: absolute;
