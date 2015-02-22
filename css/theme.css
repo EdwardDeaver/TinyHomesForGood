@@ -3,9 +3,7 @@ html, body {
     overflow-x: hidden;
     font-family: 'LeagueGothic', Fallback, sans-serif;
 }
-body.ie11 body{
-   zoom: 0.8; /* Other non-webkit browsers */
- }
+
 
 
     @font-face {
@@ -656,3 +654,71 @@ overflow-x: noscroll;
     98.5% { left:-100%; }
     100%  { left:0; }
 }
+#boardmemberstitle{
+  width:100%;
+  height:10%;
+  border-bottom: 1px dashed rgb(220, 66, 66);
+color:rgb(220, 66, 66);
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 100;
+}
+#boardmembers{
+  min-height:40%;
+  height: 40%;
+max-height: 55%;
+  width:100%;
+  border-bottom: 1px dashed rgb(220, 66, 66);
+}
+#boardmembers ul{
+   list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+width: 100%;
+ min-height:40%;
+  height: 40%;
+max-height: 55%;
+    font-family: LeagueGothic;
+  text-decoration: none;
+  color: rgb(220, 66, 66);
+  overflow: auto;
+  font-weight: 100;
+  font-size: 100%;
+}
+#stafftitle{
+  width:100%;
+  height:10%;
+  border-bottom: 1px dashed rgb(220, 66, 66);
+color:rgb(220, 66, 66);
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 100;
+}
+#staff{
+  min-height:35%;
+  height: 35%;
+max-height: 35%;
+  width:100%;
+}
+#staff ul{
+   list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+width: 100%;
+ min-height:40%;
+  height: 40%;
+max-height: 55%;
+    font-family: LeagueGothic;
+  text-decoration: none;
+  color: rgb(220, 66, 66);
+  overflow: auto;
+  font-weight: 100;
+  font-size: 100%;
+}
+
+ 
+
+ 
+
