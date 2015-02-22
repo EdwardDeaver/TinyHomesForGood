@@ -468,7 +468,23 @@ max-height: 35%;
   font-weight: 100;
   font-size: 100%;
 }
+#underconstruction{
+  width:99%;
+   min-height:99%;
+  height: 99%;
+max-height: 99%;
+  text-align: center;
 
+}
+#underconstruction p{
+  font-size: 5vh;
+  font-size: 5vw;
+  vertical-align: center;
+  height:100%;
+  width: 100%;
+    color: rgb(220, 66, 66);
+
+}
  
 
  
