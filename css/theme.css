@@ -273,6 +273,7 @@ float:right;
     font-size:1.25em;
     padding-left: 2%;
     padding-right:2%;
+    font-family: Georgia;
   }
   #leftsidepartnerbox{
     width:45%;
@@ -420,6 +421,9 @@ color:rgb(220, 66, 66);
 max-height: 55%;
   width:100%;
   border-bottom: 1px dashed rgb(220, 66, 66);
+   font-family:Georgia;
+
+
 }
 #boardmembers ul{
    list-style: none;
@@ -430,13 +434,16 @@ width: 100%;
  min-height:40%;
   height: 40%;
 max-height: 55%;
-    font-family: LeagueGothic;
+ font-family:Georgia;
+
   text-decoration: none;
   color: rgb(220, 66, 66);
   overflow: auto;
   font-weight: 100;
   font-size: 100%;
+  font-size:1.5em;
 }
+
 #stafftitle{
   width:100%;
   height:10%;
@@ -467,7 +474,9 @@ max-height: 35%;
   overflow: auto;
   font-weight: 100;
   font-size: 100%;
+  font-size: 1.5em;
 }
+
 #underconstruction{
   width:99%;
    min-height:99%;
