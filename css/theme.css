@@ -108,6 +108,7 @@ position: absolute;
   letter-spacing:2.5px;
   left:-3%;
 
+
 }
 .nav li {
   font-family: LeagueGothic;
@@ -224,6 +225,13 @@ overflow-x: noscroll;
   padding-right:1%;
   position: absolute;
   font-size:3vh;
+}
+#devolpercitation:after{
+  content: 'Copyright 2015. All Rights Reserved. ';
+  font-size: 2vh;
+  float:right;
+  
+
 }
 #devolpercitation a{
   color: rgb(220, 66, 66);

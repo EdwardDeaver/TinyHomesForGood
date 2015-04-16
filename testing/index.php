@@ -2,25 +2,30 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $from = 'From: tinyhomesforgood'; 
-    $to = 'edwarddeaver@Gmail.com'; 
-    $subject = 'Get Involved';
-    $human = $_POST['human'];
-			
-    $body = "From: $name\n E-Mail: $email\n Message: $message";
-				
+     $from = 'From: tinyhomesforgood';
+$to = 'edwarddeaver4@Gmail.com';
+  $subject    = $_POST['subject'];
+  $msgsubject = "$subject message from $name";
+
+
+
+    $body = "E-Mail: $email\n Message: $message";
+
 if ($_POST['submit']) {
     if ($name != '' && $email != '') {
-        if ($human == '4') {				 
-            if (mail ($to, $subject, $body, $from)) { 
-	        echo '<p>Your message has been sent!</p>';
-	    } else { 
-	        echo '<p>Something went wrong, go back and try again!</p>'; 
-	    } 
-	} else if ($_POST['submit'] && $human != '4') {
-	    echo '<p>You answered the anti-spam question incorrectly!</p>';
-	}
-    } else {
+
+            if (mail ($to, $msgsubject, $body, $from)) {
+                echo '<p>Your message has been sent!</p>
+                      <a href="getinvolved.html">Return to A Tiny Home For Good</a>';
+
+            } else {
+
+                echo '<p>Something went wrong, go back and try again!</p>
+                       <a href="getinvolved.html">Return to A Tiny Home For Good</a>';
+
+            }
+        }
+ else {
         echo '<p>You need to fill in all required fields!!</p>';
     }
 }

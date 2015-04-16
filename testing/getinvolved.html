@@ -1,56 +1,50 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!-- ///////////////////////////////////////////////////////////////////// 
+     /////////////////////////////////////////////////////////////////////
+     ///////////Design and Code* property of Deaver Design Firm///////////
+     ////////*Exception: Gallery code, as well as encrypted JS email////// 
+     /////////////////////////////////////////////////////////////////////
+     /////////////////////////////////////////////////////////////////////
+     -->
 
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Contact Form</title>
-<style type="text/css">
-  label {
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="theme-color" content="#dc4242">
+  <meta charset="utf-8">
+    <meta name="description" content="Providing affordable, safe,and dignified housing option for those who have faced homelessness">
+
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+
+  <title>A Tiny Home For Good</title>
+  <link href="../css/theme.css" rel="stylesheet" type="text/css">
+    <link href="../css/mobile.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+   label {
     display:block;
     margin-top:20px;
     letter-spacing:2px;
 }
 /* Centre the page */
-.body {
-    display:block;
-    margin:0 auto;
-    width:576px;
-}
+
 
 /* Centre the form within the page */
-form {
-    margin:0 auto;
-    width:459px;
-}
+
+
+/* Style the text boxes */
 
 /* Style the text boxes */
 input, textarea {
-  width:439px;
-  height:27px;
-  background:#efefef;
-  border:1px solid #dedede;
-  padding:10px;
-  margin-top:3px;
-  font-size:0.9em;
-  color:#3a3a3a;
-}
-
-textarea {
-  height:213px;
-  background-color: orange;
-}
-input, textarea {
-    width:439px;
+    width:50%;
     height:27px;
     background:#efefef;
     border:1px solid #dedede;
     padding:10px;
-    margin-top:3px;
     font-size:0.9em;
     color:#3a3a3a;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
+
 }
 input:focus, textarea:focus {
     border:1px solid #97d6eb;
@@ -61,42 +55,127 @@ input:focus, textarea:focus {
     background-color: red;
     text-indent:-9999px;
     border:none;
-    margin-top:20px;
+
     cursor:pointer;
+
 }
 
   #submit:hover {
       opacity:.9;
   }
-</style>
+  #contactwrapper{
+    margin-left: 30%;
+  }
+  </style>
 </head>
-
 <body>
+<div id="abovenavbarimagesandshare">
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GNYELJCQUJLBC" title="Paypal" target="_blank">
+    <div class="fonttypeleague" id="donatearea">
 
-    <header class="body">
-    </header>
 
-    <section class="body">
-<form method="post" action="index.php">
-        
-    <label>Name</label>
-    <input name="name" placeholder="Type Here">
-            
-    <label>Email</label>
-    <input name="email" type="email" placeholder="Type Here">
-            
-    <label>Message</label>
-    <textarea name="message" placeholder="Type Here"></textarea>
-            
-    <input id="submit" name="submit" type="submit" value="Submit">
-        <label>*What is 2+2? (Anti-spam)</label>
-<input name="human" placeholder="Type Here">
-</form>
-    </section>
+    <div id="donateareatitle">
+      DONATE
+      </div>
+    </div>
+    </a>
+    <img class="headerimage" src="images/logo.png">  <a href="https://www.facebook.com/atinyhomeforgood"><img class="facebookimage" src="images/facebook/logos-and-badges_find-us_online/png/FB_FindUsOnFacebook-512.png"></a>
+  </div>
+  <div class="nav">
+      <ul>
+        <li>
+          <a  href="index">Home</a>
+        </li>
 
-    <footer class="body">
-    </footer>
+        <li>
+          <a href="ourhomes">Our Homes</a>
+        </li>
 
-</body>
+        <li>
+          <a href="ourapprouch">Our Approach</a>
+        </li>
+
+        <li>
+          <a href="ourpartners">Our Partners</a>
+        </li>
+
+        <li>
+          <a href="whoweare">Who We Are</a>
+        </li>
+
+        <li>
+          <a class="active" href="getinvolved">Get Involved</a>
+        </li>
+      </ul>
+    </div>
+    <div id="iewrapperformessageandcontent">
+    <div id="messageboxundernavbar">
+      Affordable, Safe, Dignified, Housing
+    </div>
+    <div id="contentbox" class="autooverflow">
+    <div id="contactwrapper">
+      <header class="body">
+      </header>
+       <section class="body">
+       <form method="post" action="index.php">
+
+          <input name="name" placeholder="Name">
+
+          <input name="email" type="email" placeholder="youremail@example.com">
+
+      <select name="subject">
+      <option value="1" disabled selected>Subject:</option>
+
+        <option value="2">Donate land</option>
+        <option value="3">Ask Andrew to speak</option>
+        <option value="4">Other</option>
+      </select>
+
+
+
+
+          <textarea name="message" placeholder="Your message..."></textarea>
+
+      <input id="submit" name="submit" type="submit" value="Submit">
+
+      </form>
+      </section>
+      </div>
+      </div>
+      <div id="footer">
+       <ul>
+          <li>
+            <a  href="index">Home</a>
+          </li>
+
+          <li>
+            <a href="ourhomes">Our Homes</a>
+          </li>
+
+          <li>
+            <a href="ourapprouch">Our Approach</a>
+          </li>
+
+          <li>
+            <a href="ourpartners">Our Partners</a>
+          </li>
+
+          <li>
+            <a class="active" href="whoweare">Who We Are</a>
+          </li>
+
+          <li>
+            <a href="getinvolved">Get Involved</a>
+             </li>
+                </ul>
+                <p id="devolpercitation"><a href="https://github.com/EdwardDeaver?tab=repositories">Developed/Designed by Deaver Design Firm</a></p>
+
+                <p id="thelegal501c3statement">A Tiny Home for Good, Inc. is a tax exempt organization under Section 501(c) (3) of the Internal Revenue Code. Your contribution is tax-deductible to the extent provided by law.</p>
+              </div>
+            </body>
+            </html>
+
+
+
 
 </html>
